@@ -32,12 +32,12 @@ except ImportError:
 builtins.__SKLEARN_SETUP__ = True
 
 
-DISTNAME = "scikit-learn"
-DESCRIPTION = "A set of python modules for machine learning and data mining"
+DISTNAME = "uc-duck-scikit-learn"
+DESCRIPTION = "Custom version of scikit-learn used by data-inference duck service"
 with open("README.rst") as f:
     LONG_DESCRIPTION = f.read()
-MAINTAINER = "Andreas Mueller"
-MAINTAINER_EMAIL = "amueller@ais.uni-bonn.de"
+MAINTAINER = "AI India"
+MAINTAINER_EMAIL = "aiin@compass.com"
 URL = "http://scikit-learn.org"
 DOWNLOAD_URL = "https://pypi.org/project/scikit-learn/#files"
 LICENSE = "new BSD"
